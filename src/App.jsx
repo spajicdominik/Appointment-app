@@ -9,6 +9,7 @@ import Modal from "./components/Modal";
 import NewTermin from "./components/NewTermin";
 import dayjs from 'dayjs';
 
+
 function App() {
   const [selectedDate, setSelectedDate] = useState(null);
   const [data, setData] = useState([]);
@@ -152,7 +153,7 @@ function App() {
             null
           )
         }
-
+        
         <div className={classes.mainDiv}>
           
           <div className={classes.leftDiv}>
